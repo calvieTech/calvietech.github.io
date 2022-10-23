@@ -1,45 +1,35 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
+    "name": "Calvin Thang",
+    "occupation": "Founder of calvieTech",
+    "description": "I am a Full-Stack developer.",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "bio": "Hey, wassup?  My name is Calvin! I've been coding for over 5 years now. As a Full Stack developer, I've worked both with startups, non-profit organizations, church groups, small, medium and large corporations to help build & scale their companies. I have always been interested in computers and technology in general.  As I kept going forward with my journey, I realised that I was passionate about helping companies develop a well polished online presence. With this passion, I have gained much experience through practice. Through lots of trial & error, painful debugging sessions, and drinking copious amounts of coffee, I have developed several full-stack projects demonstrating my developer skills in front-end, back-end and software development in general. I deliver REAL VALUE by teaching REAL WORLD projects to help businesses and organizations promote growth by having an amazing online presence",
+    "contactmessage": "Get in touch with with me if your inquiring about potential business opportunities or you want to hire me for software employment positions!",
+    "email": "calvieTech@gmail.com",
+    "phone": "(631) 371-4575",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "Long Island",
+      "city": "New York",
+      "state": "NY",
+      "zip": "11040"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "https://www.calvieTech.dev",
+    "resumedownload": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/84b762ae-4798-4805-bd89-ab991b2c19ce/calvinResume10-20-2022.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221022T051004Z&X-Amz-Expires=86400&X-Amz-Signature=895449530af1c220255eb1f5877b2dc17f072bd00c89881452dab609fcdd5ac6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22calvinResume10-20-2022.pdf%22&x-id=GetObject",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/cthang94/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
+        "name": "gmail",
+        "url": "mailto:calthang94@gmail.com",
+        "className": "fa fa-envelope"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/calvieTech",
         "className": "fa fa-github"
       }
     ]
@@ -48,27 +38,49 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "Queens College, City University of New York",
+        "degree": "Bachelors of Arts in Computer Science",
+        "starting_year": "Spring 2018",
+        "ending_year": "Winter 2021",
+        "description": "Graduated with a 3.33 GPA",
+        "coursework": "Object-Oriented Programming in Java | Data Structures | Design & Analysis of Algorithms | Databases | Operating Systems | Cloud Computing"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "United States Census Bureau",
+        "title": "Field Representative",
+        "location": "Nassau County,  NY",
+        "starting_year": "Sept 2021",
+        "ending_year": "Current",
+        "description": [
+          "Interviewed respondents to collect survey or census data as required for current, on-going surveys, one-time surveys, and special census",
+          "Communicated and coordinated with respondents, supervisors, and other persons in a professional manner",
+          "Studied the survey materials and the learning modules for better preparation in conducting door-to-door surveys",
+          "Maintained personal payroll records that reflect number of hours worked, miles driven, and reimbursements for travel claimed",
+          "Explained the purpose of the survey, asks questions as worded on the questionnaire or survey instrument, and enters accurate and complete information into a laptop computer or onto survey forms"
+        ]
+      },
+      {
+        "company": "Rosenthal Library at Queens College",
+        "title": "Front-Desk Aide",
+        "location": "Flushing,  NY",
+        "starting_year": "Aug 2018",
+        "ending_year": "Mar 2020",
+        "description": [
+          "Assisted with front-desk operations of the library, providing tech support on an ad-hoc and as-needed basis and acting as the first contact for students and faculty regarding books and multimedia devices.",
+          "Diagnosed mobile device errors and implemented efficient technical solutions, contributing to a virus-free IT system at the library",
+          "Maintained data integrity of thousands of records for the college utilizing the CUNY library system to warehouse the data"
+        ]
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "75%"
       },
       {
-        "name": "Python",
+        "name": "Java",
         "level": "85%"
       },
       {
@@ -77,45 +89,51 @@
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "level": "87%"
       },
       {
         "name": "Web Development",
-        "level": "95%"
+        "level": "85%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "YEETFLIX (React JS)",
         "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "image": "yeetflix.png",
+        "url": "https://yeetflex-1d350.web.app/"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Amazoni (React JS)",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "amazoni.png",
+        "url": "https://i-ff344.firebaseapp.com/"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "M.B.C New York (React JS)",
         "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "mbcny.png",
+        "url": "https://mbcnewyork.org/"
+      },
+      {
+        "title": "TBA (React JS)",
+        "category": "",
+        "image": "empty2.png",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "Calvin is absolutely excellent, his depth of knowledge, ability to work in a team, and solve problems really meant a lot to us... I would definitely recommend",
+        "user": "mbcnewyork.org"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "Working with Calvin has been AWESOME, he makes coding look like a videogame or a puzzle.  Not only that but he is approachable and friendly, good coder and even better team player!",
+        "user": "Chris Mule"
       }
     ]
   }

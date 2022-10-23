@@ -1,4 +1,5 @@
 import React from "react";
+import { v4 as uuidv4 } from "uuid";
 
 const Resume = ({ data }) => {
   if (data) {
@@ -8,10 +9,17 @@ const Resume = ({ data }) => {
         <div key={education.school}>
           <h3>{education.school}</h3>
           <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
+            {education.degree} <span>&bull; {education.description}</span>
+            <br />
+            <em className="date">
+              {education.starting_year} &mdash; {education.ending_year}
+            </em>
+            <br />
           </p>
-          <p>{education.description}</p>
+          <p className="description">
+            <strong>Relevent Courses: </strong>
+            {education.coursework}
+          </p>
         </div>
       );
     });
@@ -21,9 +29,23 @@ const Resume = ({ data }) => {
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+            <span>&bull; {work.location}</span>
+            <br />
+            <em className="date">
+              {work.starting_year} &mdash; {work.ending_year}
+            </em>
           </p>
-          <p>{work.description}</p>
+          <ul>
+            <p>
+              {work.description.map((achievements) => {
+                return (
+                  <li key={uuidv4()} className="description">
+                    &bull;&emsp;{achievements}
+                  </li>
+                );
+              })}
+            </p>
+          </ul>
         </div>
       );
     });
@@ -72,8 +94,8 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-          <p>{skillmessage}</p>
-
+          <h3>{skillmessage}</h3>
+          <br />
           <div className="bars">
             <ul className="skills">{skills}</ul>
           </div>

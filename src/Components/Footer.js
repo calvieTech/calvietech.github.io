@@ -13,6 +13,14 @@ const Footer = ({ data }) => {
     });
   }
 
+  const color__calvieTech = {
+    color: "#11abab",
+  };
+
+  const color__madeBy = {
+    color: "#FFFFFF",
+  };
+
   return (
     <footer>
       <div className="row">
@@ -21,9 +29,9 @@ const Footer = ({ data }) => {
 
           <ul className="copyright">
             <li>
-              Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                PAPA
+              <h6 style={color__madeBy}>Made by </h6>
+              <a title="calvieTech" href="https://calvieTech.com">
+                <h5 style={color__calvieTech}>calvieTech</h5>
               </a>
             </li>
           </ul>

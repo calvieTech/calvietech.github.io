@@ -5,7 +5,6 @@ const About = ({ data }) => {
     var name = data.name;
     var profilepic = "images/" + data.image;
     var bio = data.bio;
-    var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
     var zip = data.address.zip;
@@ -14,6 +13,10 @@ const About = ({ data }) => {
     var resumeDownload = data.resumedownload;
   }
 
+  const titleStyle = {
+    color: "#11abb",
+  };
+
   return (
     <section id="about">
       <div className="row">
@@ -21,11 +24,11 @@ const About = ({ data }) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Calvin's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">
-          <h2>About Me</h2>
+          <h2 style={titleStyle}>About Me</h2>
 
           <p>{bio}</p>
           <div className="row">
@@ -35,8 +38,6 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {street}
-                  <br />
                   {city} {state}, {zip}
                 </span>
                 <br />
