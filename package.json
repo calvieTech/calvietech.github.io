@@ -2,6 +2,7 @@
   "name": "calvieTech.dev",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://calvietech.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,13 +14,14 @@
     "react-dom": "^18.2.0",
     "react-typewriter": "^0.4.1",
     "web-vitals": "^3.0.4",
-    "webpack": "^5.74.0"
+    "webpack": "^5.74.0",
+    "gh-pages": "^4.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
