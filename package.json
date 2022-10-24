@@ -14,10 +14,10 @@
     "react-dom": "^18.2.0",
     "react-typewriter": "^0.4.1",
     "web-vitals": "^3.0.4",
-    "webpack": "^5.74.0"
+    "webpack": "^5.74.0",
+    "gh-pages": "^4.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
