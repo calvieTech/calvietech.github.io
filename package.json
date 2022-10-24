@@ -1,7 +1,7 @@
 {
-  "name": "calvieTech.dev",
+  "name": "calvieTech",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "homepage": "https://calvietech.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
