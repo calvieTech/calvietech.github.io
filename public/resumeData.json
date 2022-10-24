@@ -15,7 +15,7 @@
       "zip": "11040"
     },
     "website": "https://www.calvieTech.dev",
-    "resumedownload": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/84b762ae-4798-4805-bd89-ab991b2c19ce/calvinResume10-20-2022.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221022T051004Z&X-Amz-Expires=86400&X-Amz-Signature=895449530af1c220255eb1f5877b2dc17f072bd00c89881452dab609fcdd5ac6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22calvinResume10-20-2022.pdf%22&x-id=GetObject",
+    "resumedownload": "resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -101,26 +101,26 @@
     "projects": [
       {
         "title": "YEETFLIX (React JS)",
-        "category": "",
+        "category": "Movie Trailer App",
         "image": "yeetflix.png",
         "url": "https://yeetflex-1d350.web.app/"
       },
       {
         "title": "Amazoni (React JS)",
-        "category": "",
+        "category": "E-Commerce App",
         "image": "amazoni.png",
         "url": "https://i-ff344.firebaseapp.com/"
       },
       {
         "title": "M.B.C New York (React JS)",
-        "category": "",
+        "category": "Non-profit Church App",
         "image": "mbcny.png",
         "url": "https://mbcnewyork.org/"
       },
       {
-        "title": "TBA (React JS)",
-        "category": "",
-        "image": "empty2.png",
+        "title": "TBD (React JS)",
+        "category": "You'll find out soon ;)",
+        "image": "tbd.png",
         "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       }
     ]

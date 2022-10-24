@@ -11,6 +11,7 @@ const About = ({ data }) => {
     var phone = data.phone;
     var email = data.email;
     var resumeDownload = data.resumedownload;
+    var resumelink = "images/portfolio/" + resumeDownload;
   }
 
   const titleStyle = {
@@ -48,7 +49,7 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a href={resumelink} className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

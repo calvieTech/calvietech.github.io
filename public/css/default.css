@@ -486,6 +486,7 @@ ol ul li {
 li {
   line-height: 18px;
   margin-bottom: 12px;
+  font: 12px/14px "opensans-regular", sans-serif;
 }
 ul.large li {
 }
