@@ -6,7 +6,7 @@
     "image": "profilepic.jpg",
     "bio": "Hey, wassup?  My name is Calvin! I've been coding for over 5 years now. As a Full Stack developer, I've worked both with startups, non-profit organizations, church groups, small, medium and large corporations to help build & scale their companies. I have always been interested in computers and technology in general.  As I kept going forward with my journey, I realised that I was passionate about helping companies develop a well polished online presence. With this passion, I have gained much experience through practice. Through lots of trial & error, painful debugging sessions, and drinking copious amounts of coffee, I have developed several full-stack projects demonstrating my developer skills in front-end, back-end and software development in general. I deliver REAL VALUE by teaching REAL WORLD projects to help businesses and organizations promote growth by having an amazing online presence",
     "contactmessage": "Get in touch with with me if your inquiring about potential business opportunities or you want to hire me for software employment positions!",
-    "email": "calvieTech@gmail.com",
+    "email": "calThang94@gmail.com",
     "phone": "(516) 410-8759",
     "address": {
       "street": "Long Island",
@@ -48,11 +48,23 @@
     ],
     "work": [
       {
+        "company": "MBCNY",
+        "title": "Software Engineering Intern (Remote Work)",
+        "location": "Glendale, NY",
+        "starting_year": "Jan 2022",
+        "ending_year": "Apr 2022",
+        "description": [
+          "Determined application architecture for the non-profit organization’s best use-case, and co-led web design development",
+          "Developed, re-factored and deployed the landing page, using ReactJS and Styled Components to structure the client layout",
+          "Collaborated with client and another developer and managed software workflow working with version control systems such as GitHub"
+        ]
+      },
+      {
         "company": "United States Census Bureau",
         "title": "Field Representative",
         "location": "Nassau County,  NY",
         "starting_year": "Sept 2021",
-        "ending_year": "Current",
+        "ending_year": "Dec 2021",
         "description": [
           "Interviewed respondents to collect survey or census data as required for current, on-going surveys, one-time surveys, and special census",
           "Communicated and coordinated with respondents, supervisors, and other persons in a professional manner",
@@ -98,37 +110,30 @@
     ]
   },
   "portfolio": {
-    "web_projects": [
+    "projects": [
       {
         "title": "YEETFLIX (React JS)",
-        "category": "Movie Trailer App",
+        "category": "",
         "image": "yeetflix.png",
         "url": "https://yeetflex-1d350.web.app/"
       },
       {
         "title": "Amazoni (React JS)",
-        "category": "E-Commerce App",
+        "category": "",
         "image": "amazoni.png",
         "url": "https://i-ff344.firebaseapp.com/"
       },
       {
         "title": "M.B.C New York (React JS)",
-        "category": "Non-profit Church App",
+        "category": "",
         "image": "mbcny.png",
         "url": "https://mbcnewyork.org/"
       },
       {
-        "title": "TBD (React JS)",
-        "category": "You'll find out soon ;)",
-        "image": "tbd.png",
+        "title": "TBA (React JS)",
+        "category": "",
+        "image": "empty2.png",
         "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      }
-    ],
-    "db_projects": [
-      {
-        "title": "Class Schedule Database Presentation",
-        "category": "CS331_DB3",
-        "image": "tbd.png"
       }
     ]
   },
@@ -140,7 +145,7 @@
       },
       {
         "text": "Working with Calvin has been AWESOME, he makes coding look like a videogame or a puzzle.  Not only that but he is approachable and friendly, good coder and even better team player!",
-        "user": "Chris Mule"
+        "user": "Adam Curtis"
       }
     ]
   }
